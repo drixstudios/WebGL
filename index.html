@@ -2,7 +2,24 @@
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <style>
+      body {
+        background-color: black;
+      }
+      body > div {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }     
+    </style>
+    
     <script src="Build/UnityLoader.js"></script>
     <script>
       UnityLoader.instantiate("unityContainer", "Build/WebGL.json");
